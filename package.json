@@ -1,0 +1,34 @@
+{
+    "name": "nodejs-extension-pack",
+    "displayName": "nodejs-extension-pack",
+    "description": "Popular VS Code extensions for Node.js development.",
+    "version": "1.0.1",
+    "publisher": "prodam",
+    "repository": {
+        "url": "https://github.com/vruggeri/nodejs-extension-pack"
+    },
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "icon": "nodejs-dark-icon.png",
+    "galleryBanner": {
+        "color": "#333333",
+        "theme": "dark"
+    },
+    "keywords": [
+        "node",
+        "nodejs",
+        "javascript"
+    ],
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "dbaeumer.vscode-eslint",
+        "xabikos.javascriptsnippets",
+        "jasonnutter.search-node-modules",
+        "eg2.vscode-npm-script",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense"
+    ]
+}
